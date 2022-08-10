@@ -11,7 +11,7 @@ import * as Location from "expo-location";
 import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
 import { NativeBaseProvider } from "native-base";
 import { Dimensions } from "react-native";
-import { getCoordinates } from "../services/polyline.service";
+import { getCoordinates } from "../services/polyline";
 const { height, width } = Dimensions.get("window");
 const LATITUDE_DELTA = 0.0015;
 const LONGITUDE_DELTA = LATITUDE_DELTA * (width / height);

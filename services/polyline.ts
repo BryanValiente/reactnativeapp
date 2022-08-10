@@ -125,6 +125,7 @@
  const buildCoordinates = (interval, azimuth, lat1, lng1, lat2, lng2) => {
    var d, dist, counter, coords, range_list, _coord;
    d = getPathLength(lat1, lng1, lat2, lng2);
+   // @ts-ignore
    dist = parseInt(d / interval);
    coords = [];
    coords.push([lat1, lng1]);

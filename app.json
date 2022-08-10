@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "sweepalert1",
-    "slug": "sweepalert1",
+    "name": "sweepalert",
+    "slug": "sweepalert",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "sweepalert",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
